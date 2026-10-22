@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myh profile page</title>
+    <style>
+        body{
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            padding: 60px;
+        }
+        .card{
+            background-color: rgb(12, 1, 28);
+            border-radius: 8px;
+            width: 500px;
+            max-width: 100%;
+            height: 70vh;
+            color: white;
+
+        }
+        button{
+            padding: 10px 16px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: transparent;
+            border: 3px solid white;
+            border-radius: 7px;
+        }
+        .button{
+            text-decoration: none;
+            color: rgb(12, 1, 28);
+        }
+        .button:hover{
+            color: white;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        img{
+            border-radius: 100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            padding: 12px;
+        }
+        .details{
+            padding: 0px 10px;
+           text-align: justify;
+           line-height: 20px;
+        }
+        .hobbies ul li{
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="images/fab.jpg" alt="My profile photo" width="150" height="150" >
+            
+            <div class="details">
+                <h1>Acheneje Ojoarome Fabulous</h1>
+                <hr>
+                <p>A detail-oriented learner with a growing interest in web development, 
+                    digital tools, and theological study demonstrating curiosity and analytical 
+                    thinking across technical and scriptural topics.</p>
+            </div>
+            <hr>
+
+            <div class="hobbies">
+                <ul>
+                    <li>Reading</li>
+                    <li>Music</li>
+                    <li>Praying</li>
+                    <li>Football</li>
+                    <li>Coding</li>
+                </ul>
+            </div>
+            <button>
+            <a href="https://www.facebook.com/phab.ojomachenwu" class="button" target="_blank" rel="noopener">
+            Contact me
+            </a>
+            </button>
+        </div>
+    </section>
+</body>
+</html>
